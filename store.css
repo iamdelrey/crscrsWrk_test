@@ -52,23 +52,23 @@
 .store-navlink {
   font-size: 20px;
 }
-.store-navlink1 {
+.store-navlink01 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.store-navlink2 {
+.store-navlink02 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.store-navlink3 {
+.store-navlink03 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.store-navlink4 {
+.store-navlink04 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.store-navlink5 {
+.store-navlink05 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
@@ -306,23 +306,35 @@
   justify-content: center;
   background-color: #5228f5;
 }
+.store-link {
+  display: contents;
+}
 .store-icon10 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.store-link1 {
+  display: contents;
 }
 .store-icon12 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.store-link2 {
+  display: contents;
 }
 .store-icon14 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .store-links-container {
@@ -350,14 +362,20 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.store-text02 {
+.store-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.store-text03 {
+.store-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.store-text04 {
+.store-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.store-navlink09 {
+  text-decoration: none;
 }
 .store-company-container {
   flex: 0 0 auto;
@@ -366,18 +384,21 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.store-text06 {
+.store-text02 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.store-text07 {
+.store-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.store-text08 {
+.store-navlink11 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.store-text09 {
+.store-navlink12 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .store-container06 {
   display: flex;
@@ -392,7 +413,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.store-text11 {
+.store-text06 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
@@ -418,7 +439,7 @@
   width: 24px;
   height: 24px;
 }
-.store-text12 {
+.store-text07 {
   font-size: 14px;
   align-self: center;
   padding-left: var(--dl-space-space-halfunit);
@@ -439,7 +460,7 @@
   width: 24px;
   height: 24px;
 }
-.store-text13 {
+.store-text08 {
   font-size: 14px;
   align-self: center;
   padding-left: var(--dl-space-space-halfunit);
@@ -458,7 +479,7 @@
   width: 24px;
   height: 24px;
 }
-.store-text14 {
+.store-text09 {
   font-size: 14px;
   align-self: center;
   padding-left: var(--dl-space-space-halfunit);
@@ -470,7 +491,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
-.store-text15 {
+.store-text10 {
   color: var(--dl-color-gray-black);
   width: 445px;
   font-size: 12px;
@@ -492,7 +513,7 @@
   .store-logo3 {
     font-size: 1.2rem;
   }
-  .store-text15 {
+  .store-text10 {
     font-size: 10px;
   }
 }
@@ -579,24 +600,24 @@
     width: 20px;
     height: 20px;
   }
-  .store-text12 {
+  .store-text07 {
     font-size: 12px;
   }
   .store-icon18 {
     width: 20px;
     height: 20px;
   }
-  .store-text13 {
+  .store-text08 {
     font-size: 12px;
   }
   .store-icon20 {
     width: 20px;
     height: 20px;
   }
-  .store-text14 {
+  .store-text09 {
     font-size: 12px;
   }
-  .store-text15 {
+  .store-text10 {
     width: 225px;
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-bottom: 0px;
@@ -685,7 +706,7 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .store-text15 {
+  .store-text10 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

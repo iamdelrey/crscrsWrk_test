@@ -52,23 +52,23 @@
 .gallery-navlink {
   font-size: 20px;
 }
-.gallery-navlink1 {
+.gallery-navlink01 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.gallery-navlink2 {
+.gallery-navlink02 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.gallery-navlink3 {
+.gallery-navlink03 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.gallery-navlink4 {
+.gallery-navlink04 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
-.gallery-navlink5 {
+.gallery-navlink05 {
   font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
@@ -306,23 +306,35 @@
   justify-content: center;
   background-color: #5228f5;
 }
+.gallery-link {
+  display: contents;
+}
 .gallery-icon10 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.gallery-link1 {
+  display: contents;
 }
 .gallery-icon12 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.gallery-link2 {
+  display: contents;
 }
 .gallery-icon14 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .gallery-links-container {
@@ -350,14 +362,20 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.gallery-text02 {
+.gallery-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.gallery-text03 {
+.gallery-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.gallery-text04 {
+.gallery-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gallery-navlink09 {
+  text-decoration: none;
 }
 .gallery-company-container {
   flex: 0 0 auto;
@@ -366,18 +384,21 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.gallery-text06 {
+.gallery-text02 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.gallery-text07 {
+.gallery-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.gallery-text08 {
+.gallery-navlink11 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.gallery-text09 {
+.gallery-navlink12 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .gallery-container06 {
   display: flex;
@@ -392,7 +413,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.gallery-text11 {
+.gallery-text06 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
@@ -418,7 +439,7 @@
   width: 24px;
   height: 24px;
 }
-.gallery-text12 {
+.gallery-text07 {
   font-size: 14px;
   align-self: center;
   padding-left: var(--dl-space-space-halfunit);
@@ -439,7 +460,7 @@
   width: 24px;
   height: 24px;
 }
-.gallery-text13 {
+.gallery-text08 {
   font-size: 14px;
   align-self: center;
   padding-left: var(--dl-space-space-halfunit);
@@ -458,7 +479,7 @@
   width: 24px;
   height: 24px;
 }
-.gallery-text14 {
+.gallery-text09 {
   font-size: 14px;
   align-self: center;
   padding-left: var(--dl-space-space-halfunit);
@@ -470,7 +491,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
-.gallery-text15 {
+.gallery-text10 {
   color: var(--dl-color-gray-black);
   width: 445px;
   font-size: 12px;
@@ -492,7 +513,7 @@
   .gallery-logo3 {
     font-size: 1.2rem;
   }
-  .gallery-text15 {
+  .gallery-text10 {
     font-size: 10px;
   }
 }
@@ -579,24 +600,24 @@
     width: 20px;
     height: 20px;
   }
-  .gallery-text12 {
+  .gallery-text07 {
     font-size: 12px;
   }
   .gallery-icon18 {
     width: 20px;
     height: 20px;
   }
-  .gallery-text13 {
+  .gallery-text08 {
     font-size: 12px;
   }
   .gallery-icon20 {
     width: 20px;
     height: 20px;
   }
-  .gallery-text14 {
+  .gallery-text09 {
     font-size: 12px;
   }
-  .gallery-text15 {
+  .gallery-text10 {
     width: 225px;
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-bottom: 0px;
@@ -685,7 +706,7 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .gallery-text15 {
+  .gallery-text10 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
